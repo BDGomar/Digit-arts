@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Digit'Arts Consulting - Cabinet de Conseil Stratégique Digital</title>
+  <meta name="description" content="Digit'Arts Consulting, cabinet de conseil nouvelle génération, fusion de passion, innovation et stratégie digitale. Accompagnement en stratégie digitale, création de branding et performance en ligne.">
+  <meta name="keywords" content="conseil digital, stratégie digitale, branding, marketing digital, transformation digitale, formation digitale, Burkina Faso">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Fichiers CSS du fournisseur -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Fichier CSS principal -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .offre {
+      background-color: #f9f9f9;
+      padding: 40px 0;
+    }
+
+    .offre .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #333;
+    }
+
+    .offre .section-description {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #fbfafa;
+    }
+
+    .offre-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .offre-item {
+      background: rgb(9, 58, 114);
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      height: 240px;
+      text-align: center;
+      color: white;
+    }
+
+    .offre-item .sub-title {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      color: #e09216;
+      font-weight: bold;
+    }
+    
+    .features-list, .services-list {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    .features-list li, .services-list li {
+      margin-bottom: 8px;
+      color: #555;
+    }
+    
+    .services-category {
+      margin-bottom: 40px;
+    }
+    
+    .services-category h3 {
+      color: #093a72;
+      border-bottom: 2px solid #e09216;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .formations-list {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    
+    @media (max-width: 768px) {
+      .formations-list {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+      }
+    }
+    
+    .realisation-card {
+      border-left: 4px solid #e09216;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .why-us-item {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+    }
+    
+    .why-us-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .founder-message {
+      background: #093a72;
+      color: white;
+      padding: 40px;
+      border-radius: 8px;
+      position: relative;
+    }
+    
+    .founder-message:before {
+      content: '"';
+      font-size: 100px;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      color: rgba(255,255,255,0.1);
+      font-family: serif;
+    }
+    
+    .founder-message p {
+      font-size: 1.2rem;
+      font-style: italic;
+      position: relative;
+    }
+    
+    .founder-signature {
+      text-align: right;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.svg" alt="Logo Digit'Arts Consulting">
+        <h1 class="sitename">Digit'Arts Consulting</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#equipe">Équipe</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#contact">Commencer</a>
+
+    </div>
+  </header>
+  
+  <main class="main">
+
+    <!-- Section Héros -->
+    <section id="hero" class="hero section dark-background">
+      <div class="container" data-aos="fade-up">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+              <div class="hero-tag">
+                <i class="bi bi-rocket-takeoff"></i>
+                <span>Solutions Innovantes</span>
+              </div>
+              <h1>Votre partenaire pour<br><span class="highlight">une transformation digitale</span><br>réussie.</h1>
+              <p class="lead">« Plus qu'un cabinet, nous sommes un catalyseur de changement ! »</p>
+              <ul class="hero-features">
+                <li><i class="bi bi-check-circle"></i> Leadership et partage</li>
+                <li><i class="bi bi-check-circle"></i> Intégrité et innovation avec sens</li>
+                <li><i class="bi bi-check-circle"></i> Créativité & data pour construire l'avenir digital</li>
+              </ul>
+              <div class="hero-cta">
+                <a href="#services" class="btn btn-primary">Découvrez Nos Services</a>
+                <a href="tel:+22656327001" class="btn btn-link"><i class="bi bi-telephone"></i> +226 56 32 70 01</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image-wrapper" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/about/about-square-13.webp" alt="Équipe Digit'Arts Consulting" class="img-fluid hero-image">
+              <div class="stat-card top-right">
+                <div class="stat-value">7+</div>
+                <div class="stat-label">Années d'expérience</div>
+                <div class="stat-icon">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+              </div>
+              <div class="stat-card bottom-left">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Satisfaction client</div>
+                <div class="stat-icon">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Héros -->
+
+    <!-- Section À propos -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="section-heading">Qui sommes-nous ?</h2>
+            <p class="lead">« Révélez le potentiel numérique de votre identité ! »</p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-box">
+              <div class="icon-container">
+                <i class="bi bi-lightbulb"></i>
+              </div>
+              <h4>Origine</h4>
+              <p>Né du rêve d'une étudiante, M. Sandra WETHE, pour fusionner passion, innovation et stratégie digitale.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="icon-container">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h4>Expérience</h4>
+              <p>+7 ans d'expérience dans plusieurs secteurs (grande distribution, mines, télécom, restauration, loisir, associatif, etc.).</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="icon-container">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h4>Valeurs</h4>
+              <p>Leadership, Partage, Intégrité, Innovation avec sens, Créativité & data, Construction de l'avenir digital.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="icon-container">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h4>Approche</h4>
+              <p>Cabinet de conseil nouvelle génération, accompagnant les entreprises dans leur transformation digitale.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center about-showcase">
+          <div class="col-lg-6 order-lg-2" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-image-grid">
+              <img src="assets/img/about/about-15.webp" class="img-grid-main" alt="Notre vision d'entreprise">
+              <img src="assets/img/about/about-17.webp" class="img-grid-secondary" alt="Notre équipe">
+              <img src="assets/img/about/about-square-5.webp" class="img-grid-tertiary" alt="Notre espace de travail">
+              <div class="experience-badge" data-aos="zoom-in" data-aos-delay="500">
+                <span class="years">7+</span>
+                <span class="text">Années d'expertise</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-content-box">
+              <h3>Notre philosophie</h3>
+              <p class="mb-4">Digit'Art, c'est une maison pour celles et ceux qui veulent créer l'avenir sans sacrifier l'authenticité. Nous accompagnons des marques, des institutions, des entrepreneurs à se réinventer, à prendre de la hauteur, à apprendre et à agir différemment.</p>
+
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <span class="progress-title">Stratégie digitale</span>
+                  <span class="progress-percent">94%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <span class="progress-title">Innovation</span>
+                  <span class="progress-percent">87%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress-item">
+                <div class="d-flex justify-content-between">
+                  <span class="progress-title">Satisfaction client</span>
+                  <span class="progress-percent">100%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <a href="#services" class="btn btn-discover mt-4">Découvrez nos services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section À propos -->
+
+    <!-- Section Statistiques -->
+    <section id="stats" class="stats section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-6 col-md-12">
+            <div class="stats-overview text-center text-lg-start" data-aos="fade-right" data-aos-delay="200">
+              <h3>Notre impact en chiffres</h3>
+              <p>Nous avons accompagné de nombreuses entreprises et formé des centaines de professionnels à travers nos différentes interventions.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="stats-grid" data-aos="zoom-in" data-aos-delay="300">
+              <div class="stats-card">
+                <div class="stats-icon">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-number">
+                    <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+                  </div>
+                  <p>Femmes formées</p>
+                </div>
+              </div>
+
+              <div class="stats-card">
+                <div class="stats-icon">
+                  <i class="bi bi-folder2-open"></i>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-number">
+                    <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+                  </div>
+                  <p>Projets Réussis</p>
+                </div>
+              </div>
+
+              <div class="stats-card">
+                <div class="stats-icon">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-number">
+                    <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span><span class="plus">+</span>
+                  </div>
+                  <p>Heures de Formation</p>
+                </div>
+              </div>
+
+              <div class="stats-card">
+                <div class="stats-icon">
+                  <i class="bi bi-person-workspace"></i>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-number">
+                    <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span><span class="plus">%</span>
+                  </div>
+                  <p>Satisfaction Client</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Statistiques -->
+
+    <!-- Section Services -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nos Services</h2>
+        <p>Découvrez notre offre complète pour accompagner votre transformation digitale</p>
+      </div><!-- Fin Titre de la Section -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="services-category">
+          <h3>Stratégie digitale & innovation</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-clipboard2-pulse"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Audit digital & feuille de route</h4>
+                    <p>Évaluation complète de votre présence digitale et plan stratégique pour l'améliorer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-robot"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Intelligence artificielle & automatisation</h4>
+                    <p>Implémentation de solutions IA pour optimiser vos processus métiers.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-12">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-arrow-repeat"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Transformation numérique des processus métiers</h4>
+                    <p>Modernisation de vos processus pour plus d'efficacité et de compétitivité.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services-category">
+          <h3>Création & branding digital</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Design d'identité visuelle</h4>
+                    <p>Création d'une identité visuelle forte et cohérente pour votre marque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-layout-text-window-reverse"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>UX/UI & storytelling interactif</h4>
+                    <p>Conception d'interfaces utilisateur optimales et récits engageants.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-camera-vr"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Création de contenus immersifs</h4>
+                    <p>Production de vidéos, motion design et expériences AR/VR captivantes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="services-category">
+          <h3>Performance & présence en ligne</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-search"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>SEO / SEA / Réseaux sociaux</h4>
+                    <p>Optimisation de votre visibilité en ligne et gestion de campagnes publicitaires.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-graph-up"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Data marketing & analytics</h4>
+                    <p>Analyse de données pour des décisions marketing éclairées.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="service-card">
+                <div class="service-content">
+                  <div class="service-icon">
+                    <i class="bi bi-megaphone"></i>
+                  </div>
+                  <div class="service-info">
+                    <h4>Growth hacking & campagnes ciblées</h4>
+                    <p>Techniques innovantes pour accélérer votre croissance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Services -->
+
+    <!-- Section Formations -->
+    <section id="formations" class="formations section light-background">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Nos Formations</h2>
+          <p>Renforcez vos compétences digitales avec nos programmes de formation</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <h3 class="text-center mb-4">Nos publics cibles</h3>
+            <div class="progress mb-4">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                Étudiants & jeunes entrepreneurs (60%)
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                CSP+ (cadres, dirigeants, etc.) (40%)
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <h3 class="text-center mb-4">Thématiques proposées</h3>
+            <ul class="formations-list">
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Marketing digital (fondamentaux et stratégie)</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> SEO / Référencement</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Transformation digitale des processus internes</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> MOJO (journalisme mobile)</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Conduite de projets innovants</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Coaching / brainstorming</li>
+              <li><i class="bi bi-check-circle-fill text-primary me-2"></i> Formation sur mesure selon l'entreprise</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+          <a href="#contact" class="btn btn-primary btn-lg">Réserver une formation</a>
+        </div>
+      </div>
+    </section><!-- /Section Formations -->
+
+    <!-- Section Réalisations -->
+    <section id="realisations" class="realisations section">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Nos Réalisations</h2>
+          <p>Découvrez quelques-uns de nos projets clés</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="realisation-card">
+              <h4>1000 femmes / 1 formation</h4>
+              <p>Programme de formation digitale pour l'autonomisation de 1000 femmes.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="realisation-card">
+              <h4>Digit'Masterclass</h4>
+              <p>Série de formations intensives sur les compétences digitales avancées.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="realisation-card">
+              <h4>Forum du digital</h4>
+              <p>Organisation d'un événement majeur rassemblant les acteurs du digital.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="realisation-card">
+              <h4>Campagne électorale Gouverneur</h4>
+              <p>Stratégie digitale pour une campagne électorale réussie.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="realisation-card">
+              <h4>WAZIHUP filière marketing digital</h4>
+              <p>Développement d'une filière spécialisée en marketing digital.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="realisation-card">
+              <h4>She Rise Africa</h4>
+              <p>Initiative pour l'entrepreneuriat féminin à travers le digital.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Réalisations -->
+
+    <!-- Section Pourquoi nous choisir -->
+    <section id="why-us" class="why-us section light-background">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Pourquoi nous choisir ?</h2>
+          <p>Les raisons de faire confiance à Digit'Arts Consulting</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-people"></i>
+              </div>
+              <h4>Équipe pluridisciplinaire</h4>
+              <p>Une équipe aux compétences variées et complémentaires pour répondre à tous vos besoins.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-lightning"></i>
+              </div>
+              <h4>Méthodes agiles</h4>
+              <p>Approche flexible et itérative pour des résultats rapides et adaptés.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h4>Solutions innovantes</h4>
+              <p>Des approches créatives et différenciantes pour vous démarquer.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-heart"></i>
+              </div>
+              <h4>Passion</h4>
+              <p>Un engagement total et une passion pour l'excellence dans chaque projet.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h4>Stratégie personnalisée</h4>
+              <p>Des solutions sur mesure adaptées à vos spécificités et objectifs.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-us-item">
+              <div class="icon-box">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h4>Outils de pointe</h4>
+              <p>Utilisation des dernières technologies et méthodologies pour des résultats optimaux.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Pourquoi nous choisir -->
+
+    <!-- Section Témoignages -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Ils nous ont fait confiance</h2>
+        <p>Taux de satisfaction client : 100%</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <!-- Élément de Témoignage 1 -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Digit'Arts Consulting a transformé notre manière de communiquer. Une équipe réactive et professionnelle !</p>
+              <div class="testimonial-footer">
+                <div class="testimonial-author">
+                  <img src="assets/img/person/person-m-3.webp" alt="Auteur" class="img-fluid rounded-circle" loading="lazy">
+                  <div>
+                    <h5>Michael Anderson</h5>
+                    <span>Développeur Logiciel</span>
+                  </div>
+                </div>
+                <div class="quote-icon">
+                  <i class="bi bi-quote"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Élément de Témoignage 2 -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>Une expérience incroyable avec une augmentation significative de notre visibilité en ligne !</p>
+              <div class="testimonial-footer">
+                <div class="testimonial-author">
+                  <img src="assets/img/person/person-f-5.webp" alt="Auteur" class="img-fluid rounded-circle" loading="lazy">
+                  <div>
+                    <h5>Sophia Martinez</h5>
+                    <span>Spécialiste Marketing</span>
+                  </div>
+                </div>
+                <div class="quote-icon">
+                  <i class="bi bi-quote"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Section Témoignages -->
+
+    
